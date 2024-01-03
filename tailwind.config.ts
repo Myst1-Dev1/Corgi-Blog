@@ -6,13 +6,16 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  // theme: {
-  //   extend: {
-  //     backgroundImage: {
-  //       blur:'url(/images/banner.webp)',
-  //     },
-  //   },
-  // },
+  theme: {
+    extend: {
+      backgroundImage: {
+        blur:'url(/images/banner.webp)',
+      },
+      backgroundColor: {
+        footerBackground:'#303030'
+      }
+    },
+  },
   plugins: [],
 }
 export default config
