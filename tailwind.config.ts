@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        blur:'url(/images/banner.webp)',
+        banner:'url(/images/banner.webp)',
       },
       backgroundColor: {
         footerBackground:'#303030'

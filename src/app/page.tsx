@@ -5,7 +5,7 @@ import { SideBarPosts } from './components/sidebarPosts'
 export default function Home() {
   return (
     <div className='py-5'>
-      <div className="text-white min-h-96 bg-blur bg-cover bg-no-repeat flex justify-start items-center sm:justify-center">
+      <div className="text-white min-h-96  bg-banner bg-cover bg-no-repeat flex justify-start items-center sm:justify-center">
         <div className="flex flex-col gap-5 container mx-auto">
           <h1 className="text-4xl font-bold text-center sm:text-left">
             Conheça o Incrível <br /> Mundo dos <span className="text-orange-400">Corgis</span>

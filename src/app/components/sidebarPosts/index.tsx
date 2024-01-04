@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export function SideBarPosts() {
     return (
-        <div className="m-auto lg:mt-0 w-[350px] sm:w-[300] mt-20">
+        <div className="m-auto lg:mt-0 w-[370px] sm:w-[300] mt-20">
             <div className="flex flex-col gap-10 p-3 justify-center items-center border border-gray-300 m-auto">
               <Image
                 className="rounded-full" 

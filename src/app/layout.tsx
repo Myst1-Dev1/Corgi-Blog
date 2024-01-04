@@ -6,7 +6,7 @@ import { Footer } from './components/Footer'
 
 const roboto = Roboto({
   subsets: ['latin'],
-  weight: '400'
+  weight: '500'
 })
 
 export const metadata: Metadata = {
