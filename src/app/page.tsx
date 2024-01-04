@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
       <div className="py-10 container m-auto">
-        <div className="flex justify-between sm: flex-wrap">
+        <div className="grid lg:grid-cols-2 sm:grid-cols-1">
           <div className='flex flex-col gap-10 sm: px-3'>
             <div className={`w-full lg:w-[600px] sm:w-[300px] m-auto`}>
               <Image src="/images/PostImage.webp" width={600} height={350} alt="foto da postagem" />

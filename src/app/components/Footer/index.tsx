@@ -22,11 +22,11 @@ export function Footer() {
                     <h6>+55 21 4002 8922</h6>
                     <h6>corgiblogoficial@gmail.com</h6>
                 </div>
-                <div>
+                <div className="flex flex-col">
                     <h2 className="font-bold text-xl mb-5">Menu</h2>
-                    <h6>Início</h6>
-                    <h6>Sobre</h6>
-                    <h6>Contato</h6>
+                    <a className="hover:text-orange-500 transition-opacity" href = "/">Início</a>
+                    <a className="hover:text-orange-500 transition-opacity" href = "">Sobre</a>
+                    <a className="hover:text-orange-500 transition-opacity" href = "">Contato</a>
                 </div>
             </div>
             <div className="border-t-2 border-orange-500 w-full text-white flex justify-center items-center">
